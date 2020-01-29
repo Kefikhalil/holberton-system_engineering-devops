@@ -1,0 +1,1 @@
+In this project i'll be learning the Shell , what is the difference between a terminal and a shell and how to use it ! 
