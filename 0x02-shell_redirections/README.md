@@ -1,0 +1,1 @@
+in this project i'll be learning shell redirections and filters
