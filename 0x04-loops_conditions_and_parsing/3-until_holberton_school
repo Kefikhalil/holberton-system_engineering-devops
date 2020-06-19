@@ -2,7 +2,7 @@
 # Displays "Holberton School" 10 times
 
 a=0
-until [ $i -eq 10 ]
+until [ $a -eq 10 ]
 do
     echo "Holberton School"
     (( a++ ))
