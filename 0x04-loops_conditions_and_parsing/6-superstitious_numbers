@@ -2,7 +2,7 @@
 # Superstitious numbers
 
 a=1
-while [ $a <= 20 ]
+while [ $a -le 20 ]
 do
     case $a in
         4) echo "$a"
