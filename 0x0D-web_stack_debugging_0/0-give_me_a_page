@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#apache fix script
+
+sudo sed -i 's/Listen 80/Listen 8080/g' /etc/apache2/ports.conf
+sudo service apache2 reload
+sudo service apache2 restart
