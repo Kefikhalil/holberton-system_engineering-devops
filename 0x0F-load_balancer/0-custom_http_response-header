@@ -6,7 +6,7 @@ sudo apt-get -y install nginx
 string2="http {\\n\\tadd_header X-Served-By \'$HOSTNAME\';"
 sudo service nginx start
 
-dest="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
+dest="\\\trewrite ^/redirect_me https://www.youtube.com/ permanent;"
 sudo sed -i "22i $dest" /etc/nginx/sites-available/default
 
 sudo service nginx restart
