@@ -5,6 +5,6 @@ exec { 'Debugging':
 }
 #Debugging_4
 exec { 'Debugging':
-  command => 'sed -i \'s/^holberton soft nofile.*/holberton soft nofile 64000/g\' /etc/security/limits.conf',
+  command => 'sed -i \'s/^holberton soft nofile.*/holberton soft nofile 50000/g\' /etc/security/limits.conf',
   path    => '/usr/local/bin/:/bin/'
 }
